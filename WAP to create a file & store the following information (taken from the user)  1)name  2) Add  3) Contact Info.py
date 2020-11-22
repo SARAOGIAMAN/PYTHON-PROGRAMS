@@ -1,0 +1,8 @@
+file=open("file1.txt", "w")
+Name=input("Enter Name:")
+Add=input("Enter Address:")
+ContactNo=int(input("Enter Contact Number:"))
+file.write("Name:"+Name+"\n")
+file.write("Address:"+Add+"\n")
+file.write("ContactInfo:"+str(ContactNo)+"\n")
+file.close()
