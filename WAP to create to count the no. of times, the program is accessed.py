@@ -1,0 +1,12 @@
+file=open("file1.txt","r")
+a=file.read()
+file.close()
+file=open("file1.txt","w")
+if(len(a)==0):
+    file.write("0")
+else:
+    b=int(a)
+    b=b+1
+    b=str(b)
+    file.write(b)
+print(a)
